@@ -28,6 +28,13 @@ int main()
 	//set the sprite background to the cover the screen
 	spritebackground.setPosition(0, 0);
 
+	//make a tree sprite 
+	Texture textureTree;
+	textureTree.loadFromFile("graphics / tree.png");
+	Sprite spriteTree;
+	spriteTree.setTexture(textureTree);
+	spriteTree.setPosition(810, 0);
+
 	while (window.isOpen())
 	{
 		/**********************handle the player input**********************/
