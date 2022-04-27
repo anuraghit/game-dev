@@ -9,13 +9,14 @@ Hotkeys
 
 Requirements
 ------------
-- C++11
+- Visual Studio(2022)
+- C++17
 - SFML 2.4.2 (x32 version)
 
 How to build 
 ------------
 After opening the project in Visual Studio, go to "Project -> Timber properties...":
-1) Select "All configurations" in "Configuration" section
+1) Select "All configurations" in "Configuration" section and change from x64 to x86.
 2) In "C/C++ -> General -> Additional include directories" section append the "include" directory of SFML library
 3) In "Linker -> General -> Additional library directories" section append the "lib" directory of SFML library
 4) Select "Debug" in "Configuration" section
