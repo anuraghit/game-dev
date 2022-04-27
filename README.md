@@ -4,7 +4,7 @@ The Timberman game clone, which is based on ideas and concepts from a "Beginning
 Hotkeys
 "Esc" for exit from the game
 "Enter" for start the game
-"Right arrow" / "Left arrow" for making a cut of a tree from an appropriate side
+"Right arrow" / "Left arrow" for making a cut of a tree from an appropriate side.
 
 Requirements
 C++11
